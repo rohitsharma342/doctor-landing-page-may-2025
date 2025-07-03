@@ -67,9 +67,10 @@ export default function Location() {
 
             <div className="h-[400px] rounded-lg overflow-hidden">
               {/* Placeholder for Google Maps iframe */}
-              <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+              {/* <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                 <p className="text-gray-500">Google Maps will be embedded here</p>
-              </div>
+              </div> */}
+              <img src="https://t3.ftcdn.net/jpg/10/67/16/46/360_F_1067164668_WyO1YwtlIm8Xvu783t8Yr8MbYMYtPDJv.jpg" alt="Google Maps" className="w-full h-full object-cover" />
             </div>
           </div>
         </motion.div>

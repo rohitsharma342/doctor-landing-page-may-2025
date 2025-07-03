@@ -26,7 +26,11 @@
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-8 font-playfair;
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-2 font-playfair;
+  }
+
+  .section-title-dctr {
+    @apply text-xl md:text-xl font-bold text-gray-900 mb-1 font-playfair;
   }
   
   .card {

@@ -13,6 +13,7 @@ import Blog from '@/components/Blog'
 import Location from '@/components/Location'
 import Contact from '@/components/Contact'
 import FloatingCTA from '@/components/FloatingCTA'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Location />
       <Contact />
       <FloatingCTA />
+      <Footer />
     </main>
   )
 }
